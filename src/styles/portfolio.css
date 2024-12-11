@@ -1,0 +1,41 @@
+.portfolio {
+  padding: 4% 2%;
+  text-align: center;
+}
+
+.portfolio_title {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio_desc {
+  font-size: 1.3rem;
+  padding-bottom: 3rem;
+}
+
+.portfolio_card_wripper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.portfolio_card {
+  background: rgb(185, 185, 185);
+  padding: 2rem 1.8rem;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.port_icon {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.port_title {
+  padding-bottom: 1.3rem;
+}
+
+.port_desc {
+  font-size: 1.3rem;
+}

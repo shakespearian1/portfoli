@@ -1,0 +1,59 @@
+.home_hero {
+  width: 100%;
+  padding: 6% 3% 4% 3%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero_content1 {
+  /* background: pink; */
+  width: 60%;
+}
+
+.hero_title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+  line-height: 3.5rem;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+}
+
+.skills p {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.icon {
+  color: yellow;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero_content2 {
+  /* background: salmon; */
+  width: 30%;
+  height: 26rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+}
